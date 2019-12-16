@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E25AF372C0E752769B707E13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25AF56E413B375EACBA2B86 /* AppDelegate.swift */; };
+		E25AF512391878FB5B44CF75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25AFCD1393BAAD721C762A1 /* Assets.xcassets */; };
+		E25AF71FD8CD38CE99C0B665 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25AFE47A1CE80249D62CDC6 /* SceneDelegate.swift */; };
+		E25AF7A5B268F9677874AD5E /* PasswordInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25AF349BC80FA2F23F117AB /* PasswordInputViewController.swift */; };
+		E25AFA092D3749A69BF57489 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25AFD2D5F955E2E30ABBEAC /* Main.storyboard */; };
+		E25AFC39DC7738269CE457E7 /* PasswordTrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25AF964FF915977CFDC30E7 /* PasswordTrainViewController.swift */; };
+		E25AFE7900F960C1BCCB8536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25AF491E2F47ECE5E867251 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E25AF1A00A67A475C1282AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E25AF349BC80FA2F23F117AB /* PasswordInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordInputViewController.swift; sourceTree = "<group>"; };
+		E25AF53A14A27ECE134FA1BD /* PasswordTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25AF56E413B375EACBA2B86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E25AF88E4560C9C50F5838A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		E25AF964FF915977CFDC30E7 /* PasswordTrainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordTrainViewController.swift; sourceTree = "<group>"; };
+		E25AFB242C536FEB455663D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E25AFCD1393BAAD721C762A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E25AFE47A1CE80249D62CDC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E25AFDDCC88700CD869C036D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E25AF5FD1344AA6FCF1E1464 /* PasswordTrainer */ = {
+			isa = PBXGroup;
+			children = (
+				E25AF88E4560C9C50F5838A8 /* Info.plist */,
+				E25AFCD1393BAAD721C762A1 /* Assets.xcassets */,
+				E25AF491E2F47ECE5E867251 /* LaunchScreen.storyboard */,
+				E25AF56E413B375EACBA2B86 /* AppDelegate.swift */,
+				E25AFE47A1CE80249D62CDC6 /* SceneDelegate.swift */,
+				E25AF349BC80FA2F23F117AB /* PasswordInputViewController.swift */,
+				E25AFD2D5F955E2E30ABBEAC /* Main.storyboard */,
+				E25AF964FF915977CFDC30E7 /* PasswordTrainViewController.swift */,
+			);
+			path = PasswordTrainer;
+			sourceTree = "<group>";
+		};
+		E25AF792E75738B4CB0C6F47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E25AF53A14A27ECE134FA1BD /* PasswordTrainer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E25AF9D16C1066FB1105A42A = {
+			isa = PBXGroup;
+			children = (
+				E25AF792E75738B4CB0C6F47 /* Products */,
+				E25AF5FD1344AA6FCF1E1464 /* PasswordTrainer */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E25AF7E87965ACF24C7FD4FC /* PasswordTrainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25AF21528F05A684273F632 /* Build configuration list for PBXNativeTarget "PasswordTrainer" */;
+			buildPhases = (
+				E25AF2C3CB13EBEDF9D94995 /* Sources */,
+				E25AFDDCC88700CD869C036D /* Frameworks */,
+				E25AF2399DAE157DD08FECC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordTrainer;
+			productName = PasswordTrainer;
+			productReference = E25AF53A14A27ECE134FA1BD /* PasswordTrainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E25AF5C2D7EA2DE3657FB83C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = E25AF6019749ADDCAB2CB745 /* Build configuration list for PBXProject "PasswordTrainer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = E25AF9D16C1066FB1105A42A;
+			productRefGroup = E25AF792E75738B4CB0C6F47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E25AF7E87965ACF24C7FD4FC /* PasswordTrainer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E25AF2399DAE157DD08FECC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25AF512391878FB5B44CF75 /* Assets.xcassets in Resources */,
+				E25AFE7900F960C1BCCB8536 /* LaunchScreen.storyboard in Resources */,
+				E25AFA092D3749A69BF57489 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E25AF2C3CB13EBEDF9D94995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25AF372C0E752769B707E13 /* AppDelegate.swift in Sources */,
+				E25AF71FD8CD38CE99C0B665 /* SceneDelegate.swift in Sources */,
+				E25AF7A5B268F9677874AD5E /* PasswordInputViewController.swift in Sources */,
+				E25AFC39DC7738269CE457E7 /* PasswordTrainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E25AF491E2F47ECE5E867251 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E25AF1A00A67A475C1282AA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E25AFD2D5F955E2E30ABBEAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E25AFB242C536FEB455663D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E25AF066E5142FA30BE3222B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PasswordTrainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kassergeymac.PasswordTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E25AF1872D0C7EAA969434B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PasswordTrainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kassergeymac.PasswordTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E25AF5EF1B68E882661ED23F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E25AFE64E72DFA3304D07B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E25AF21528F05A684273F632 /* Build configuration list for PBXNativeTarget "PasswordTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25AF066E5142FA30BE3222B /* Debug */,
+				E25AF1872D0C7EAA969434B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25AF6019749ADDCAB2CB745 /* Build configuration list for PBXProject "PasswordTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25AF5EF1B68E882661ED23F /* Debug */,
+				E25AFE64E72DFA3304D07B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E25AF5C2D7EA2DE3657FB83C /* Project object */;
+}
