@@ -20,7 +20,15 @@ class PasswordTrainViewController: UIViewController {
     }
 
     @IBAction func onBtnCheckTap(_ sender: Any) {
-
+        if tfPassword.text == realPassword {
+            successCount += 1
+            lblRealPassword.isHidden = true
+        } else {
+            successCount = 0
+            lblRealPassword.isHidden = false
+        }
+        lblSuccessCount.text = "\(successCount)"
+        tfPassword.text = nil
     }
 
 }

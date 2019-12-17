@@ -21,5 +21,17 @@ class PasswordInputViewController: UIViewController {
         let destinationVC = segue.destination as! PasswordTrainViewController
         destinationVC.realPassword = tfPassword.text
     }
-    
+
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        if (tfPassword.text ?? "").isEmpty {
+            let errorAlert = UIAlertController(title: "Empty password",
+                    message: "Please, type password",
+                    preferredStyle: .alert)
+            let errorActionOk = UIAlertAction(title: "OK", style: .default)
+            errorAlert.addAction(errorActionOk)
+            present(errorAlert, animated: true)
+            return false
+        }
+        return true
+    }
 }
