@@ -12,13 +12,14 @@ import UIKit
 class PasswordInputViewController: UIViewController {
     
     @IBOutlet weak var tfPassword: UITextField!
-    
-    override func viewDidLoad() {
-    super.viewDidLoad()
-    // Do any additional setup after loading the view.
-    }
 
     @IBAction func onBtnTrainTap(_ sender: Any) {
+    }
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+        let destinationVC = segue.destination as! PasswordTrainViewController
+        destinationVC.realPassword = tfPassword.text
     }
     
 }

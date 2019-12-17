@@ -13,8 +13,14 @@ class PasswordTrainViewController: UIViewController {
     
     var realPassword: String!
     var successCount: Int = 0
-    
-    @IBAction func onBtnCheckTap(_ sender: Any) {
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        lblRealPassword.text = realPassword
     }
-    
+
+    @IBAction func onBtnCheckTap(_ sender: Any) {
+
+    }
+
 }
